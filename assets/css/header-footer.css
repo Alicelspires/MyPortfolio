@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&family=Quicksand:wght@300..700&family=Sen:wght@400..800&family=Varela+Round&display=swap');
+
+*{
+    margin:0;
+}
+:root{
+    --bg-color:#171717;
+    --bg-contacts:#0D3747a1;
+    --bg-button:#494ba0;
+    --bg-button-hover:#7576cf;
+
+    --font-color:#fff;
+    --font-family:"Sen", serif;
+    --font-size-01:3.2rem;
+    --font-size-02:1.5rem;
+    --font-size-03:1.1rem; /*16px*/
+    --font-size-04:1.05rem;
+    --font-size-05:0.9rem;
+
+    --bg-section01:linear-gradient();
+    --bg-section02:linear-gradient();
+    --bg-section03:linear-gradient();
+
+    --status-bar:#171717;
+    --status-fill:linear-gradient(to right, #595ac2 80%, #fff  100%);
+}
+
+a{
+    text-decoration: none;
+    color: var(--font-color);
+}
+body{
+    margin:0;
+    background-color: var(--bg-color);
+    font-family:var(--font-family) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px; 
+}
+::-webkit-scrollbar-thumb {
+    background-color: #000000; 
+    border-radius: 6px; 
+    border: 2px solid white; 
+}
+
+/*Navbar---------------------------------------------------*/
+
+header{
+    display:flex;
+    justify-content: flex-end;
+    margin:25px 30px 18px 0px;
+    gap:35px;
+    color:var(--font-color);
+}
+
+.heading{
+    width:70%;
+    font: 100 x-large var(--font-family);
+    color:var(--font-color);
+    margin:0px 60px;
+    h1{
+        font-size:var(--font-size-01);
+    }
+}
+nav > a{
+    margin-left:20px;
+}
+.giphy{
+    height:36px;
+    box-sizing: border-box;
+}
+.triangle{
+    width:0;
+    height:0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid var(--bg-button);
+    display:flex;
+    align-items:flex-start;
+    -webkit-animation: triangle 0.8s ease-in-out 1s infinite alternate both;
+	        animation: triangle 0.8s ease-in-out 1s infinite alternate both;
+}
+@keyframes triangle {
+    0% {
+    -webkit-transform: rotate3d(-1, 1, 0, 0deg);
+            transform: rotate3d(-1, 1, 0, 0deg);
+    }
+    100% {
+    -webkit-transform: rotate3d(-1, 1, 0, -180deg);
+            transform: rotate3d(-1, 1, 0, -180deg);
+    }
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--font-color);
+    margin:15px;
+    gap:10px;
+    hr{
+        width: 80%;
+    }
+}
