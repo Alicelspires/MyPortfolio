@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="/assets/img/iconTriangle.png">
+<img width="50px" src="/assets/img/iconTriangle.png">
   
   #  MyPortfolio
 
