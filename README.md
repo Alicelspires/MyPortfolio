@@ -13,6 +13,9 @@
   <h3>About</h3>
   <p>An interactive personal portfolio with HTML, CSS and JavaScript that presenting projects, skills and more. Including responsive design, bilingual support and animations for a better experience of my profile</p>
 
+  **Link:** https://alicelspires.github.io/MyPortfolio/
+  
+  <br>
   <a href = "mailto:alicelspires@gmail.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark"></a>
   <a href="https://www.linkedin.com/in/alice-silva-7596b92a3/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" target="_blank"></a>
   <a href="https://github.com/Alicelspires" target="_blank"><img src="https://skillicons.dev/icons?i=github&theme=dark" target="_blank"></a>
