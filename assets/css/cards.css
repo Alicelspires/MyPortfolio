@@ -160,17 +160,17 @@ input:checked + label{
             transform:rotate(0deg);
         }
         .download{
-            content:url('./assets/img/cv-download-01.png');
+            content:url('../img/cv-download-01.png');
             width:25px;
             height:25px;
         }
         .github-link{
-            content:url('./assets/img/github.png');
+            content:url('../img/github.png');
             width:33px;
             height:33px;
         }
         .linkedin-link{
-            content:url('./assets/img/icons8-linkedin-100-white.png');
+            content:url('../img/icons8-linkedin-100-white.png');
             width:22px;
             height:22px;
         }
@@ -190,31 +190,31 @@ input:checked + label .title-card{
 /*Backgrounds---------------------------------------------------------------------------*/
 .c1{
     background: var(--gradient-card), 
-    url('/assets/img/layered-waves.svg') no-repeat center/cover;
+    url('../img/layered-waves.svg') no-repeat center/cover;
 }
 .c2{
     background: var(--gradient-card), 
-    url('/assets/img/circle-scatter.svg') no-repeat center/cover;
+    url('../img/circle-scatter.svg') no-repeat center/cover;
 }
 .c3{
     background: var(--gradient-card),
-    url('/assets/img/stacked-waves.svg') no-repeat center/cover;
+    url('../img/stacked-waves.svg') no-repeat center/cover;
 }
 .c4{
     background: var(--gradient-card),
-    url('/assets/img/low-poly-grid.svg') no-repeat center/cover;
+    url('../img/low-poly-grid.svg') no-repeat center/cover;
 }
 .c5{
     background: var(--gradient-card),
-    url('/assets/img/polygon-scatter.svg') no-repeat center/cover;
+    url('../img/polygon-scatter.svg') no-repeat center/cover;
 }
 .c6{
     background: var(--gradient-card),
-    url('/assets/img/blob-scatter.svg') no-repeat center/cover;
+    url('../img/blob-scatter.svg') no-repeat center/cover;
 }
 .c7{
     background: var(--gradient-card),
-    url('/assets/img/moonBackground.jpg') no-repeat center/cover;
+    url('../img/moonBackground.jpg') no-repeat center/cover;
 }
 
 
@@ -227,7 +227,7 @@ input:checked + label .title-card{
     width:70px;
     height:70px;
     clip-path: circle(48%);
-    background-image: url('/assets/img/status-photo.png');
+    background-image: url('../img/status-photo.png');
     background-position: center;
     background-size: cover;
     margin:5px;
@@ -345,15 +345,15 @@ li .status{
 }
 .see-projects > div:first-child{
     transform:rotate(-10deg) translateY(25px);
-    background: url('./assets/img/PresentationPage.png') center/cover;
+    background: url('../img/PresentationPage.png') center/cover;
 }
 .see-projects > div:nth-child(2){
     z-index: 1 ;
-    background: url('./assets/img/Project01-CamperCafe.png') center/cover;
+    background: url('../img/Project01-CamperCafe.png') center/cover;
 }
 .see-projects > div:last-child{
     transform:rotate(10deg) translateY(25px);
-    background: url('./assets/img/Project02-LittleGames.png') center/cover;
+    background: url('../img/Project02-LittleGames.png') center/cover;
 }
 .see-projects > div:hover {
     transform: rotate(0deg) translateY(5px);
