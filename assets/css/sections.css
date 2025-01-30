@@ -65,6 +65,9 @@
     margin:20px 40px 20px 30px;
     color:var(--font-color);
     font-size:var(--font-size-03);
+    hr{
+        margin:10px 0px;
+    }
 }
 
 /*sections area -------------------------------------------------------------*/
@@ -257,9 +260,12 @@ section{
     .about{
         width:100%;
         display:flex;
+        flex-direction: column;
         justify-content: center;
-        align-items: center;
         margin-top:45px;
+        hr{
+            width:100%;
+        }
     }
     .details{
         display:flex;

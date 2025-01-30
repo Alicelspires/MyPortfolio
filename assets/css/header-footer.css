@@ -57,7 +57,7 @@ header{
 }
 
 .heading{
-    width:70%;
+    width:65%;
     font: 100 x-large var(--font-family);
     color:var(--font-color);
     margin:0px 60px;
