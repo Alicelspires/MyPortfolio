@@ -4,14 +4,14 @@
   
   #  MyPortfolio
 
-  <h3>In improvement process... :construction: Enjoy!</h3>
+  <h3>Em processo de aprimoramento... :construction: Aproveite!</h3>
 
   #
 
 </div>
 
-  <h3>About</h3>
-  <p>An interactive personal portfolio with HTML, CSS and JavaScript that presenting projects, skills and more. Including responsive design, bilingual support and animations for a better experience of my profile</p>
+  <h3>Sobre</h3>
+  <p>Portfólio profissional interativo com HTML, CSS e JavaScript que apresenta projetos, habilidades e muito mais. Incluindo design responsivo, suporte bilíngue e animações para uma melhor experiência ao conhecer o meu perfil</p>
 
   **Link:** https://alicelspires.github.io/MyPortfolio/
   
@@ -21,35 +21,35 @@
   <a href="https://github.com/Alicelspires" target="_blank"><img src="https://skillicons.dev/icons?i=github&theme=dark" target="_blank"></a>
 
 
-<h2>Tecnologies</h2>
+<h2>Tecnologias</h2>
 
 <img src="https://skillicons.dev/icons?i=html,css,js,figma,vscode&perline=5">
 
-## Sections & functionalities
+## Seções & funcionalidades
 
 <div align="center">
   
- ***Here you'll find:***
+ ***Aqui você encontra:***
 
   n° | infos
   :---:| :-----:
-  1  | Interactive cards with information about me and developing professional skills
-  2  | Contact links
-  3  | Section on projects already completed or under construction
-  4  | Improving Front-end and Web Design skills
-  5  | Courses certificates
-  6  | Open Source colaborations
+  1  | Cartões interativos com informações sobre mim e desenvolvimento de habilidades profissionais
+  2  | Links para contato
+  3  | Seção sobre projetos já concluídos ou em construção
+  4  | Aprimoramento das habilidades de front-end e web design
+  5  | Cursos e certificados
+  6  | Colaborações Open Source
   
 </div>
 
 ## Branches
 
-**MyPortfolio** is separated into two branches to support English and Portuguese-BR language
--  **Branch `English`**: Full version of the portfolio in English
--  **Branch `Portuguese`**: Full version of the portfolio in Portuguese
+**MyPortfolio** esta separado em duas branches para suporte na lingua Portuguesa-BR e Inglês
+-  **Branch `English`**: Inteira versão do portfolio em Inglês - (contêm link do portfolio por meio do github pages)
+-  **Branch `Portuguese`**: Inteira versão do portfolio em Português
 
-## Next staps
+## Próximos passos
 
-- [ ] Add Open Sourse colaboration
-- [ ] Add professional experience time line
-- [ ] Add new interactivities
+- [ ] Adicionar novas colaborções Open Source
+- [ ] Adicionar linha do tempo de experiências profissionais
+- [ ] Adicionar novas interatividades
