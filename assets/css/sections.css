@@ -238,7 +238,8 @@ section{
         flex-direction: column-reverse;
     }
     .text{
-        width:70%;
+        width:85%;
+        margin-left:10px;
     }
 }
 @media(max-width:860px){
@@ -263,9 +264,6 @@ section{
     .details{
         display:flex;
         flex-wrap: wrap;
-    }
-    .imgs{
-        margin:0px 25px;
     }
     section img{
         width:30vw;

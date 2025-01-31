@@ -121,9 +121,3 @@ footer{
         box-sizing: border-box;
     }
 }
-@media(max-width:540px){
-    .card{
-        margin-right:6%;
-    }
-    
-}
