@@ -35,6 +35,7 @@ body{
     font-family:var(--font-family) ;
     background-repeat: no-repeat;
     background-size: cover;
+    box-sizing:border-box;
 }
 ::-webkit-scrollbar {
     width: 12px;
@@ -104,4 +105,25 @@ footer{
     hr{
         width: 80%;
     }
+}
+@media(max-width:680px){
+    .heading{
+        width:80%;
+        font: 100 x-large var(--font-family);
+        color:var(--font-color);
+        margin:0px 60px;
+        h1{
+            font-size:2.5rem;
+        }
+    }
+    .giphy{
+        height:30px;
+        box-sizing: border-box;
+    }
+}
+@media(max-width:540px){
+    .card{
+        margin-right:6%;
+    }
+    
 }
