@@ -270,9 +270,6 @@ section{
         display:flex;
         flex-wrap: wrap;
     }
-    .imgs{
-        margin:0px 25px;
-    }
     section img{
         width:30vw;
         height:25vh;
