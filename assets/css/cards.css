@@ -290,7 +290,6 @@ input:checked + .card{
     background: var(--bg-button-hover);
 }
 li .status{
-    width:68px;
     background: var(--bg-contacts);
     font-size: var(--font-size-05);
     padding:1px 8px;

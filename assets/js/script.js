@@ -28,3 +28,37 @@ radio.forEach((card,index) => {
         })
 
     })
+
+let btnMenu = document.querySelector('.toggle-btn');
+let dropDownMenu = document.querySelector('.dropdown-menu')
+let header = document.querySelector('header')
+
+function isMobile() {
+    return window.matchMedia("(max-width: 580px)").matches;
+}
+
+btnMenu.addEventListener('click', function(){
+    dropDownMenu.classList.toggle('open')
+    let isOpen = dropDownMenu.classList.contains('open');
+    
+    if(!isMobile()) return;
+    
+    if(isOpen){
+        dropDownMenu.style.display = 'block';
+        header.style.backgroundColor = '#000000da'
+        btnMenu.setAttribute('src', './assets/img/open-menu.png');
+    } else{
+        dropDownMenu.style.display = 'none';
+        header.style.backgroundColor = 'transparent'
+        btnMenu.setAttribute('src', './assets/img/close-menu.png');
+    }
+
+})
+
+window.addEventListener('resize', function () {
+    if (!isMobile()) {
+        dropDownMenu.classList.remove('open');
+        header.style.backgroundColor = 'transparent';
+        btnMenu.setAttribute('src', './assets/img/close-menu.png');
+    }
+})
