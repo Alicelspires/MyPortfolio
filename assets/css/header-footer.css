@@ -13,7 +13,7 @@
     --font-family:"Sen", serif;
     --font-size-01:3.2rem;
     --font-size-02:1.5rem;
-    --font-size-03:1.1rem; /*16px*/
+    --font-size-03:1.1rem; 
     --font-size-04:1.05rem;
     --font-size-05:0.9rem;
 
@@ -35,7 +35,7 @@ body{
     font-family:var(--font-family) ;
     background-repeat: no-repeat;
     background-size: cover;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 ::-webkit-scrollbar {
     width: 12px;
@@ -52,7 +52,6 @@ body{
 header{
     display:flex;
     justify-content: flex-end;
-    margin:25px 30px 18px 0px;
     align-items: center;
     padding:25px 30px;
     gap:35px;
@@ -60,7 +59,7 @@ header{
 }
 
 .heading{
-    width:70%;
+    width:65%;
     font: 100 x-large var(--font-family);
     color:var(--font-color);
     margin:0px 60px;
@@ -69,15 +68,15 @@ header{
     }
 }
 .toggle-btn{
-    width: 40px;
+   width: 40px;
+   display:none;
+}
+.dropdown-menu{
+    opacity: 0;
+}
+.dropdown-menu>div{
     display:none;
- }
- .dropdown-menu{
-     opacity: 0;
- }
- .dropdown-menu>div{
-     display:none;
- }
+}
 nav > a{
     margin-left:20px;
 }
